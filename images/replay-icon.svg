@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>replay-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1115.000000, -5859.000000)">
+            <g id="replay-icon" transform="translate(1115.000000, 5859.000000)">
+                <g id="reload" transform="translate(18.000000, 18.000000) scale(-1, 1) translate(-18.000000, -18.000000) " opacity="0.2" stroke="#A834DC" stroke-width="4">
+                    <circle id="Oval" cx="18" cy="18" r="16"></circle>
+                </g>
+                <g id="play-button-arrowhead" transform="translate(14.000000, 12.000000)" fill="#A834DC" fill-rule="nonzero">
+                    <path d="M1.99293583,0.264590267 C0.892313736,-0.355983346 0,0.152397822 0,1.39918396 L0,10.5999164 C0,11.8479475 0.892313736,12.3556696 1.99293583,11.7356819 L10.174254,7.12370824 C11.2752487,6.50291493 11.2752487,5.49713749 10.174254,4.87649065 L1.99293583,0.264590267 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

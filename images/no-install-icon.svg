@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>no-install-icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-562.000000, -5859.000000)">
+            <g id="no-install-icon" transform="translate(562.000000, 5859.000000)">
+                <circle id="Oval" stroke="#22A645" stroke-width="4" opacity="0.2" cx="18" cy="18" r="16"></circle>
+                <g id="big-check-mark" transform="translate(10.000000, 12.000000)" fill="#22A645" fill-rule="nonzero">
+                    <path d="M15.7040333,1.98686667 L14.0121,0.2955 C13.6573667,-0.0593 13.0827333,-0.0593 12.7280333,0.2955 L6.00486667,7.01913333 L3.24343333,4.25766667 C2.88863333,3.9029 2.3135,3.9024 1.95883333,4.2571 L0.266333333,5.95013333 C-0.0884333333,6.30486667 -0.0889333333,6.88 0.2658,7.23476667 L4.938,11.9075333 C5.51423333,12.4836667 6.44833333,12.4853 7.02663333,11.9112 C9.16306667,9.78963333 13.9637667,5.00593333 15.703,3.27303333 C15.8739667,3.10266667 15.9701355,2.8716 15.9701355,2.63053333 C15.9706667,2.38893333 15.8745,2.15786667 15.7040333,1.98686667 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

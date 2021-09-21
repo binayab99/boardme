@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/menu/white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-728.000000, -50.000000)">
+            <g id="icons/menu/white" transform="translate(724.000000, 43.000000)">
+                <polygon id="Path" points="0 0 34 0 34 34 0 34"></polygon>
+                <line x1="5.66666667" y1="8.5" x2="28.3333333" y2="8.5" id="Path" stroke="#FFFFFF" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="5.66666667" y1="17" x2="28.3333333" y2="17" id="Path" stroke="#FFFFFF" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="5.66666667" y1="25.5" x2="28.3333333" y2="25.5" id="Path" stroke="#FFFFFF" stroke-width="2.125" stroke-linecap="round" stroke-linejoin="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

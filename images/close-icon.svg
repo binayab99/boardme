@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>close-icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="buttons/close" transform="translate(-17.000000, -17.000000)" stroke="#1A1B38" stroke-width="2.125">
+            <g id="close-icon" transform="translate(18.500000, 18.500000)">
+                <line x1="17" y1="0" x2="0" y2="17" id="Path"></line>
+                <line x1="0" y1="0" x2="17" y2="17" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap");
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background: no-repeat top 20% center / contain url("images/path-1.svg")
+    #1a1b38;
+  font-family: "Mulish", sans-serif;
+  font-size: 100%;
+  height: 200vh;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  border-radius: 2rem;
+  opacity: 0.6;
+  transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+  opacity: 1;
+  background: #222347;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  /* width: auto; */
+  /* height: auto; */
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+.fixed {
+  position: fixed;
+  width: 4rem;
+  bottom: 1.5625rem;
+  left: 1.5625rem;
+  background: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.fixed a {
+  padding: 0;
+}
+
+.header {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.header .logo a {
+  display: flex;
+  opacity: 1;
+}
+
+.header .links-wrapper ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.demo {
+  opacity: 1;
+  background: #3457dc;
+}
+
+.demo:hover {
+  background: #123adb;
+}
+
+.main {
+  margin-inline: auto;
+  padding: 5rem;
+  max-width: 1220px;
+}
+
+.main .hero {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  color: #fff;
+}
+
+.main .hero h1 {
+  max-width: 20rem;
+  margin-bottom: 3rem;
+}
+
+.main .hero p:first-of-type {
+  margin-bottom: 8rem;
+}
+
+.main .hero p:last-of-type {
+  opacity: 0.3;
+  margin-top: 2.5rem;
+  color: #a4b3ef;
+}
+
+.main .why {
+  color: #fff;
+}
+
+.main .why h2 {
+  margin-bottom: 3rem;
+}
+
+.main .why p {
+  margin-bottom: 2rem;
+  max-width: 52rem;
+}
+
+.main .why .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8rem;
+}
+
+.main .why .grid a {
+  opacity: 1;
+  color: #6585ff;
+  gap: 0.8rem;
+  align-items: left;
+  justify-content: start;
+  max-width: max-content;
+}
