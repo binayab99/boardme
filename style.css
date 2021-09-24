@@ -135,6 +135,47 @@ img {
   color: #a4b3ef;
 }
 
+.main .hero-right img:hover {
+  animation: shake 0.7s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
 .main .why {
   color: #fff;
 }
@@ -161,4 +202,96 @@ img {
   align-items: left;
   justify-content: start;
   max-width: max-content;
+}
+
+.full-width-container {
+  background: no-repeat center center / cover url("/images/Path203.svg") #f6f9fe;
+}
+
+.guide {
+  display: flex;
+  margin-inline: auto;
+  padding: 10rem 5rem;
+  max-width: 1220px;
+}
+
+.guide-text {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guide-text p {
+  margin-bottom: 5rem;
+}
+
+.guide-text a {
+  max-width: max-content;
+  color: white;
+}
+
+.guide-image {
+  max-width: 50%;
+}
+
+.guide-image img {
+  width: 100%;
+}
+
+.highlight {
+  display: flex;
+  margin-inline: auto;
+  padding: 10rem 5rem;
+  max-width: 1220px;
+  gap: 2rem;
+}
+
+.highlight-text {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guide-image {
+  max-width: 50%;
+}
+
+.highlight-image img {
+  width: 100%;
+}
+
+.replay {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  padding: 10rem 5rem;
+  max-width: 1220px;
+  gap: 2rem;
+  position: relative;
+}
+
+.replay-text {
+  max-width: 50%;
+}
+
+.replay-text p {
+  margin-bottom: 5rem;
+}
+
+.replay-text a {
+  max-width: max-content;
+  color: white;
+}
+
+.replay-image {
+  max-width: 50%;
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+}
+
+.replay-image img {
+  width: 100%;
 }
