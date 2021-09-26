@@ -295,3 +295,24 @@ img {
 .replay-image img {
   width: 100%;
 }
+
+.build {
+  margin-block: 5rem;
+  margin-inline: auto;
+  max-width: 1220px;
+  text-align: center;
+}
+
+.interactive {
+  max-width: 1220px;
+  margin-inline: auto;
+}
+
+.interactive .video {
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.interactive .video video {
+  width: 100%;
+}
