@@ -303,16 +303,37 @@ img {
   text-align: center;
 }
 
+.build * {
+  max-width: 30rem;
+  margin-inline: auto;
+}
+
+.build h1 {
+  margin-bottom: 3rem;
+}
+
 .interactive {
   max-width: 1220px;
   margin-inline: auto;
 }
 
 .interactive .video {
-  max-width: 800px;
+  max-width: 1100px;
   margin-inline: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 5rem;
 }
 
 .interactive .video video {
   width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  margin-block: 5rem;
+}
+
+.flex-container > div {
+  flex: auto;
 }
