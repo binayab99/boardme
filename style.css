@@ -332,8 +332,46 @@ img {
 .flex-container {
   display: flex;
   margin-block: 5rem;
+  padding-bottom: 10rem;
 }
 
 .flex-container > div {
   flex: auto;
+}
+
+.flex-container .changes img {
+  margin-bottom: 30px;
+}
+
+.dark-space {
+  background-color: #1a1b38;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.dark-space .ready {
+  background: #5576f4;
+  max-width: 80%;
+  margin-inline: auto;
+  padding-block: 3rem;
+  color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-space .ready p {
+  /* max-width: 30rem; */
+}
+
+.dark-space .ready a {
+  font-weight: bold;
+  max-width: max-content;
+  color: #1a1b38;
+  background-color: white;
 }
